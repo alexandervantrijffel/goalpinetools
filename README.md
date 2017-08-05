@@ -1,7 +1,7 @@
 # goalpinetools
 Docker image with tools for building and testing go for Alpine Linux. 
 
-Example of building example/main.go with goalpinetools:
+Example of statically building example/main.go with goalpinetools:
 
 ```
 cd example
