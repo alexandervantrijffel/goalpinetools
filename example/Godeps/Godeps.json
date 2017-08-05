@@ -1,0 +1,11 @@
+{
+	"ImportPath": "github.com/alexandervantrijffel/goalpinetools/example",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/jochasinga/go-weather",
+			"Rev": "0d5e35ef8e472ce1d2acacdc8cc7c3ec1d8a5c72"
+		}
+	]
+}
