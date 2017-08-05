@@ -14,3 +14,5 @@ Example of running an interactive shell inside the goalpinetools docker containe
 cd example
 docker run -ti --rm -v `pwd`:/go/src/github.com/goalpinetools/example -v `pwd`/releases:/out --entrypoint=/bin/sh goalpinetools
 ```
+
+The image is available on [Docker hub](https://hub.docker.com/r/structura/goalpinetools/).
