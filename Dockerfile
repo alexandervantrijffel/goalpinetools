@@ -4,7 +4,7 @@ MAINTAINER Alexander van Trijffel, Structura
 RUN apk update && apk upgrade && \
     apk add --no-cache g++ bash git openssh
 
-RUN go get github.com/tools/godep
+RUN go get -u github.com/golang/dep/cmd/dep
 
 ENV SOURCEDIR /go/src/myproject
 RUN mkdir /out

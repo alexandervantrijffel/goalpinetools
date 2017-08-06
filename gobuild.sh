@@ -3,7 +3,7 @@
 echo Building from source directory: $SOURCEDIR
 cd $SOURCEDIR
 
-if [ -f "Godeps/Godeps.json" ]
+if [ -f "Gopkg.lock" ]
 then 
     echo Restoring dependencies with godep
     godep restore
