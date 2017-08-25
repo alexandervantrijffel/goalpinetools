@@ -5,8 +5,8 @@ cd $SOURCEDIR
 
 if [ -f "Gopkg.lock" ]
 then 
-    echo Restoring dependencies with godep
-    godep restore
+    echo Restoring dependencies with dep
+    dep ensure
 fi
 
 echo Executing: static go build with additional arguments $BUILDARGS
