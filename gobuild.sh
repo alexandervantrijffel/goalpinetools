@@ -10,5 +10,5 @@ then
 fi
 
 echo Executing: static go build with additional arguments $BUILDARGS
-CGO_ENABLED=0 GOOS=linux go build -a -ldflags '-extldflags "-static"' $BUILDARGS
+CGO_ENABLED=0 go build -a -ldflags '-extldflags "-static"' $BUILDARGS
 
