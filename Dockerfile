@@ -1,4 +1,4 @@
-FROM golang:1.10.0-alpine3.7
+FROM golang:1.11.2-alpine3.8
 MAINTAINER Alexander van Trijffel, Structura
 
 RUN apk update && apk upgrade && \
