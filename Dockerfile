@@ -1,8 +1,8 @@
-FROM golang:1.12.6-alpine3.10
+FROM golang:alpine
 MAINTAINER Alexander van Trijffel, Structura
 
 RUN apk update && apk upgrade && \
-    apk add --no-cache g++ bash git openssh
+    apk add --no-cache g++ bash git openssh 
 
 RUN go get -u github.com/golang/dep/cmd/dep
 

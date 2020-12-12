@@ -3,13 +3,15 @@
 
 [[projects]]
   branch = "master"
+  digest = "1:866ca7e58f66133b34e2f96affe1ee2d2c9e4d8d3df33de6fdf6c206f991f1ca"
   name = "github.com/jochasinga/go-weather"
   packages = ["."]
+  pruneopts = ""
   revision = "0d5e35ef8e472ce1d2acacdc8cc7c3ec1d8a5c72"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "f9fdafe6817e4b5f7ca1441100b7d3d434604e60f06a72899355d8a695b1dda8"
+  input-imports = ["github.com/jochasinga/go-weather"]
   solver-name = "gps-cdcl"
   solver-version = 1
